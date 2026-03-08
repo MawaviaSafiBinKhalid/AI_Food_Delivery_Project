@@ -41,10 +41,9 @@ CREATE TABLE Users (
 );
 
 
-
+-- commands backup
 DROP TABLE IF EXISTS Users;
 DROP TABLE IF EXISTS Restaurants;
 DROP TABLE IF EXISTS MapNodes;
 DROP TABLE IF EXISTS MapEdges;
 
--- commands backup
