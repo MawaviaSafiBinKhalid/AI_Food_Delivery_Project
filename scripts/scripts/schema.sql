@@ -1,3 +1,9 @@
+ -- commands backup 
+DROP TABLE IF EXISTS Users;
+DROP TABLE IF EXISTS Restaurants;
+DROP TABLE IF EXISTS MapNodes;
+DROP TABLE IF EXISTS MapEdges;
+
 --  MapNodes Table @1
 -- This table will store the nodes of the map, which represent locations such as restaurants, intersections, etc.
 --  cordinate geometry map and its location and its name. {x, y}
@@ -41,9 +47,5 @@ CREATE TABLE Users (
 );
 
 
--- commands backup
-DROP TABLE IF EXISTS Users;
-DROP TABLE IF EXISTS Restaurants;
-DROP TABLE IF EXISTS MapNodes;
-DROP TABLE IF EXISTS MapEdges;
+
 
